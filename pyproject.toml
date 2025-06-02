@@ -1,0 +1,15 @@
+[project]
+name = "help"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anyio>=4.9.0",
+    "feedparser>=6.0.11",
+    "google-adk>=1.1.1",
+    "lxml[html-clean]>=5.4.0",
+    "newspaper3k>=0.2.8",
+    "secure-smtplib>=0.1.1",
+    "python-dotenv>=1.0.0",
+]
